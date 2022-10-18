@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/186.63aef70a.chunk.js","mappings":"uMAEe,SAASA,IACtB,OAAO,oCACR,C","sources":["components/Reviews/Reviews.jsx"],"sourcesContent":["import React from 'react';\n\nexport default function Reviews() {\n  return <div>Reviews</div>;\n}\n"],"names":["Reviews"],"sourceRoot":""}
