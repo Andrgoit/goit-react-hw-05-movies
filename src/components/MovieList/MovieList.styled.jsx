@@ -30,4 +30,8 @@ export const StyledItem = styled.li`
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0px 3px 5px black;
+
+  &:hover {
+    color: red;
+  }
 `;

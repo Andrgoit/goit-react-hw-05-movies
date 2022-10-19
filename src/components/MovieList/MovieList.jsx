@@ -8,7 +8,6 @@ import {
 
 export default function MovieList({ movies, title = null }) {
   // показывае по какому адресу сейчас находишься
-
   const location = useLocation();
 
   // размеры картинок w92, w154, w185, w342, w500, w780, "original"

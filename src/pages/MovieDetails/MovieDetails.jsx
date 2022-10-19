@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Outlet, useParams, useNavigate, useLocation } from 'react-router-dom';
 import { HiOutlineArrowCircleLeft } from 'react-icons/hi';
-import { GetMovieById } from 'components/utils/api-request';
+import { GetMovieById } from 'services/api-request';
 
 import { Box } from 'components/Box';
 import {
