@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { GetReviews } from 'services/api-request';
+import { GetReviews } from 'services/api';
 
 export default function Reviews() {
   const [reviews, setReviews] = useState([]);

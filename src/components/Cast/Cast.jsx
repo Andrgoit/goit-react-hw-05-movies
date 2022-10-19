@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { GetCast } from 'services/api-request';
+import { GetCast } from 'services/api';
 import { StyledContainer, StyledList } from './Cast.styled';
 
 export default function Cast() {

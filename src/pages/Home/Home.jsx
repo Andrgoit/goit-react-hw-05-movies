@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { TrendingMovie } from 'services/api-request';
+import { TrendingMovie } from 'services/api';
 import MovieList from 'components/MovieList/MovieList';
 
 export default function Home() {

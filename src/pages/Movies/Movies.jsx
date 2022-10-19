@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import SearchForm from 'components/SearchForm/SearchForm';
 import MovieList from 'components/MovieList/MovieList';
-import { GetMovieBySearch } from 'services/api-request';
+import { GetMovieBySearch } from 'services/api';
 
 export default function Movies() {
   const [searchMovies, setSearchMovies] = useState([]);
